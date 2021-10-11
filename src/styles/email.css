@@ -1,0 +1,37 @@
+.email{
+    width:100%;
+}
+.email__top{
+    /* background-color:red; */
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.email__top > button{
+    
+    background:none;
+    padding:5px;
+    border:none;
+    outline:none;
+    border-right:1px solid #DACDCD;
+    border-bottom:1px solid #DACDCD;
+    color:#474545;
+    cursor:pointer;
+}
+.email__top > button:hover{
+    background:whitesmoke;
+    cursor:pointer;
+}
+.email__fromBtn{
+    flex:0.3;
+    
+}
+.email__subjBtn{
+    flex:0.5;
+    
+}
+.email__receiveBtn{
+    flex:0.2;
+    
+}
+

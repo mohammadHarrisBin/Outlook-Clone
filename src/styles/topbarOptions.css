@@ -1,0 +1,27 @@
+
+
+.topBarOptions > button{
+    background-color:white;
+    width:150px;
+    padding:10px;
+    outline:none;
+    border:none;
+    text-align:left;
+    font-size: 15px;
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+    
+}
+
+.topBarOptions > button > p{
+    padding-left: 20px;
+    cursor:pointer;
+}
+
+.topBarOptions > button:hover{
+    background-color:whitesmoke;
+    cursor:pointer;
+}
+    
+    

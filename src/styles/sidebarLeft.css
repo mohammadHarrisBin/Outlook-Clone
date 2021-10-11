@@ -1,0 +1,32 @@
+.sideLeft{
+    width: 50px;
+    height: 1050px;
+    background-color:#EDEBE9;
+    display:flex;
+    flex-direction:column;
+    align-items: space-between;
+    border-right: 0.5px solid #EDEBE9;
+    
+}
+.sideLeft > .sideLeft__SideBarLeftButton{
+    padding:10px;
+    cursor:pointer;
+    color:gray;
+}
+.sideLeft > .sideLeft__SideBarLeftButton:nth-child(1){
+    padding:10px;
+    background-color:#fff;
+    cursor:pointer;
+    color:#D24726;
+    border-left: 2px solid #D24726;
+    margin-top: 2px;
+    
+}
+.sideLeft > .sideLeft__SideBarLeftButton:hover{
+    padding:10px;
+    background-color:#fff;
+    cursor:pointer;
+    color:#D24726;
+    border-left: 2px solid #D24726;
+    
+}
